@@ -1,0 +1,604 @@
+%%
+%% This is file `./samples/longsample.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% apa7.dtx  (with options: `longsample')
+%% ----------------------------------------------------------------------
+%% 
+%% apa7 - A LaTeX class for formatting documents in compliance with the
+%% American Psychological Association's Publication Manual, 7th edition
+%% 
+%% Copyright (C) 2019 by Daniel A. Weiss <daniel.weiss.led at gmail.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% ----------------------------------------------------------------------
+%% 
+\documentclass[man]{apa7}
+
+\usepackage{lipsum}
+\usepackage[american]{babel}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+\usepackage{amsmath,amssymb,amsfonts}           
+\usepackage[T1]{fontenc}
+\usepackage{newtxmath,newtxtext}                
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{tabulary}                                                           
+% Include the following packages 
+\usepackage{booktabs}  % for \toprule, \midrule, and \bottomrule macros 
+
+
+\parskip 0.0in 
+% \titlespacing*{\section}
+% {0pt}{0.0ex plus 1ex minus .0ex}{0.0ex plus .0ex}
+% \titlespacing*{\subsection}
+% {0pt}{0.0ex plus 1ex minus .0ex}{0.0ex plus .0ex}
+
+\titlespacing{\section}{0pt}{2ex}{1ex}
+    \titlespacing{\subsection}{0pt}{1ex}{0ex}
+    \titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
+
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{library.bib}
+
+\title{The differential effects of exploration, exploitation, and ambidexterity on entrepreneurs vitality and learning at work}
+\shorttitle{Entrepreneurs}
+
+\author{Anne-Kathrin Kleine, Antje Schmitt, \& Barbara Wisse}
+\affiliation{University of Groningen}
+
+\leftheader{Weiss}
+
+\abstract{}
+
+\keywords{}
+
+\authornote{
+   \addORCIDlink{Anne-Kathrin Kleine}{0000-0003-1919-2834}
+
+  Correspondence concerning this article should be addressed to Anne-Kathrin Kleine, Faculty of Social and Behavioral Sciences, Department of Organizational Psychology, University of Groningen, Grote Kruisstraat 2/1, 9712 TS Groningen.  E-mail: a.k.kleine@rug.nl}
+
+\doublespacing
+
+\begin{document}
+\maketitle
+
+Entrepreneurs determine their firm's strategic direction by exploring novel procedures versus exploiting existing resources \parencite{Siren.2012, Ireland2009, Webb2010}.
+Exploration refers to behaviors characterized by search, experimentation, discovery, and innovation, while exploitation implies behaviors characterized by refinement, selection, and production \parencite{March.1991}.
+The conceptual distinction between exploration and exploitation as two broad categories of learning behaviors individuals and organizations engage in has been applied by organization theory \parencite[e.g.,][]{OReilly2013} and strategic management \parencite[e.g.,][]{Raisch.2009b} research.
+One common understanding is that both on the firm as well as on the individual level, performance outcomes are dependent on the ability to balance exploratory and exploitative activities \parencite[e.g.,][]{Tushman1996, Mom.2007, Raisch.2009b}.
+This ability to reconcile the conflicting demands of exploratory and exploitative goals has been termed ambidexterity \parencite{March.1991}. 
+On the organizational level, ambidexterity may be achieved by spatially distributing exploratory and exploitative tasks between multiple individuals or units. 
+Individual ambidexterity, on the contrary, demands one person to simultaneously engage in both exploration and exploitation \parencite{He2004, Good.2013}. \par 
+
+While some knowledge has been accumulated about the positive effects of individual ambidexterity on individual and firm performance \parencite[e.g.,][]{Rosing.2017, Vicentini.2019, Mom.2018}, to date, little is known about its implications for entrepreneurs' well-being. 
+However, as entrepreneurs decide about the strategic direction of their business, they must be able to experiment while also execute, act flexibly while also efficiently, establish adaptability while also stability, and focus on short-term optimization just as much as long-term development.
+In short, ambidexterity is an integral part of entrepreneurship \parencite{Volery.2015}. 
+Previous research findings indicate that the positive implications of ambidexterity for performance-related outcomes may not readily be extrapolated to the context of individual well-being. 
+Specifically, \textcite{Keller2015} found that both exploration and individual ambidexterity, operationalized as the absolute difference between exploration and exploitation, enhance managers' strain. \par 
+
+In the current study, we focus the effects of exploration, exploitation, and individual ambidexterity on vitality and learning as indicators of hedonic and eudaimonic well-being. 
+Vitality at work is characterized by the experience of having energy and feeling alive, and learning at work reflects the experience of personal development and the acquisition of skills and knowledge \parencite{Spreitzer.2005b}. 
+Both exploring novel opportunities, as well as reaping the fruits of one's efforts, in terms of exploitation, may enhance the experience of having energy available, thus increasing vitality at work. 
+In addition, through experimenting with novel procedures, entrepreneurs create knowledge resources, thus experiencing learning at work \parencite[e.g.][]{Kolb2009, Spreitzer.2005b}.
+However, engaging in exploration and exploitation simultaneously requires resources (e.g., attention) to be allocated to opposing behavioral strategies \parencite{Laureiro-Martinez2010}. 
+Based on conservation of resources \parencite[COR;][]{Hobfoll.1989} theory, \textcite{Hunter2017} propose that, due to the conflicting nature of exploration and exploitation activities, the simultaneous engagement in both behaviors consumes energy and elevates the risk of individual strain.
+Drawing from this argumentation, we suggest that ambidexterity, in terms of the simultaneous engagement in exploration and exploitation, overtaxes entrepreneurs' energy resources and thus decreases vitality at work. \par 
+
+With the current study, we contribute to theory development and research in multiple ways.
+To begin with, this is the first study that tests the effects of exploration and exploitation separately, as well as those of ambidexterity in terms of congruent levels of exploration and exploitation on indicators of entrepreneurs' hedonic and eudaimonic well-being. To this end, we apply polynomial regression and response surface analysis \parencite{Edwards.1993a, Shanock.2010b, box2007response, Humberg2019}, thus overcoming the methodological shortcomings of difference scores used in a previous study \parencite{Keller2015}. \par 
+
+Second, we investigate the effects of entrepreneurial behavior on vitality and learning at work, representing hedonic and eudaimonic elements of well-being. 
+Past research has put a strong focus on predictors of entrepreneurs' hedonic well-being \parencite[see][]{Stephan2018, Ryff2019}. 
+However, a primary source of entrepreneurs' sustained motivation is the experience of learning and developing while doing their job \parencite{Jayawarna2013}.   
+By investigating the behavioral antecedents of learning at work, we reply to the call for more research on predictors of entrepreneurs' eudaimonic well-being as an important source of personal and professional self-development \parencite{Stephan2018, Ryff2019}. \par 
+
+Finally, we use data collected at two time points with a two-week time lag between measurements. 
+Such a design allows accounting for regression artifacts \parencite[e.g.,][]{Campbell1999} and reducing the influence of common-method variance, thus increasing the robustness of our findings \parencite{Podsakoff2003}.
+
+\section{Theoretical Background}
+
+\subsection{The Effect of Exploration on Vitality and Learning at Work}
+
+Hedonic well-being indicates happiness, the presence of positive affect, and the absence of negative affect. 
+Vitality at work, as the experience of having energy and feeling alive at work, is a central indicator of work-related hedonia \parencite{Spreitzer.2005b, Nix.1999b}.
+Mentally, vitality at work reflects to feelings of aliveness, enthusiasm, and spirit. 
+Physically, it entails feeling healthy and energetic \parencite{Ryan.1997, Kark.2009}. 
+Importantly, vitality at work is characterized by high levels of activation and thus differs from  positive emotional states associated with non-arousal, such as job satisfaction \parencite{Kark.2009}. 
+Entrepreneurs who feel vital while doing their work possess the energy necessary to complete work activities while maintaining a positive attitude towards their work \parencite{Ryan.1997}. \par 
+
+Exploring novel options and opportunities as part of one's job reflects the high degree of autonomy inherent in an entrepreneurial occupation.
+According to self-determination theory \parencite[SDT;][]{Ryan2001}, by deliberately engaging in proactive work behavior, like exploration, entrepreneurs create energy resources that subsequently enhance their experience of vitality at work \parencite{Spreitzer.2005b}.
+That is, entrepreneurs who explore are involved in deliberate experimentation with novel options, thus deviating from routines to create something new \parencite{Rosing.2017}.
+Although exploration may be driven by the desire to achieve external goals (such as higher turnover), for the most part it reflects behavior that is autonomously motivated.
+Drawing from SDT, the development and deliberate experimentation with novel ideas energize people and enhance their experience of positive arousal while doing their work \parencite{Spreitzer.2005b}.
+Moreover, exploration may enhance vitality as it provides individuals with a sense of being capable of dealing with non-routine job demands \parencite{Daniels2009, Niessen.2012}.
+Indeed, some support has been found for exploration as a positive predictor of vitality within one work day \textcite{Niessen.2012}.
+Moreover, previous research has shown that proactive work behaviors enhance well-being over time \parencite[e.g.,][]{Seibert.2001, Tims2013}. 
+Drawing from SDT and previous research findings, we propose: \par 
+
+\textit{Hypothesis 1}: Exploration positively predicts vitality at work. \par 
+
+Eudaimonic well-being reflects realizing one's potential and developing as a person.
+Accordingly, learning at work, as the self-perceived acquisition of skills and knowledge, represents core elements of work-related eudaimonia \parencite{Spreitzer.2005b}. 
+The experience of learning at work spurs entrepreneurs' personal and professional development and acts as a motivating force in the pursuit of their business goals \parencite{Jayawarna2013}. 
+Learning at work refers to the sense of acquiring, and being able to apply, knowledge and skills at work \parencite{Dweck.1986, Spreitzer.2005b}. 
+Experiencing learning reflects the feeling of being on a positive developmental path towards realizing one's true potential - a sensation inherently related to eudaimonic well-being \parencite{Spreitzer.2005b}. \par 
+
+According to SDT, the experience of self-development is a by-product of the individual's deliberate striving to understand something new \parencite{Spreitzer.2005b}. 
+By exploring new options in their surroundings, entrepreneurs make experiences that spur their work-related self-development. 
+That is, through exploration, they encounter new ideas and strategies that increase the knowledge and skills they can then apply while doing their work \parencite{Spreitzer.2005b}. \par  
+
+In addition, according to experiential learning theory \parencite[ELT;][]{Kolb2009}, learning experiences emerge through the repeated engagement in opportunity-seeking actions and the subsequent reflection on these behaviors \parencite{Holcomb2009, Funken2020}. 
+Accordingly, through exploration entrepreneurs create knowledge resources, a process that increases the experience of learning at work. 
+In fact, due to the high amount of uncertainty and the lack of formalized working procedures associated with an entrepreneurial job, learning-by-doing has been argued to allow for more profound and sustainable learning experiences than formalized learning approaches \parencite[e.g.,][]{Minniti.2001, Cope.2000, Chang2014}. \par 
+
+A wide range of researchers have acknowledged the value of exploration for entrepreneurs' learning experience and learning-by-doing approaches have been adopted to entrepreneurial education programs \parencite[e.g.,][]{Chang2014, Pittaway2011, Daly2001}. 
+However, the effect of exploration on entrepreneurs' perceived learning as an indicator of eudaimonic well-being has yet to be explored empirically.   
+Based on the tenets of SDT and ELT, we propose: \par 
+
+\textit{Hypothesis 2}: Exploration positively predicts learning at work.
+
+\subsection{The Effect of Exploitation on Vitality and Learning at Work}
+
+Little is known about the effects of exploitation on indicators of hedonic well-being.
+On the one hand, exploitation is characterized by immediate and certain returns \parencite{March.1991}.
+That is, entrepreneurs who exploit existing resources may draw a sense of satisfaction from the experience of reaping the fruits of their labor. 
+In addition, the advantages gained from exploitation may cumulate over time. 
+Specifically, each increase in competence gained by behavioral patterns associated with exploitation, such as refinement and selection, increase the likelihood of future rewards \parencite{Argyris.1978, March.1991}.
+On the other hand, exploitation lacks the energizing potential of activities associated with exploration, such as experimentation and discovery \parencite{Spreitzer.2005b}.
+Moreover, exploitation reflects strategically planned behavior. 
+That is, without exploiting opportunities that were created, entrepreneurial businesses are likely to perish \parencite[e.g.,][]{Tushman1996}.
+Accordingly, in comparison with exploration, exploitation happens less spontaneously, following strategic considerations rather than being driven by intrinsic motivation. 
+Due to the lack of a theoretical model and past research findings that shed light on the role of exploitation for indicators of hedonic well-being, we propose the following research question: \par 
+
+\textit{Research Question 1}: What is the effect of exploitation on vitality at work? \par 
+Exploitation involves making use of and refining one’s existing knowledge stocks. 
+Its focus lies on increasing efficiency in routine tasks. 
+While activities associated with exploitation do not foster the accumulation of new knowledge and skills, improvement and refinement of existing strategies and procedures may lead to incremental learning experiences \parencite[e.g.,][]{March.1991, Kane2007}. 
+\textcite{Jansen2009} outline how learning outcomes may emerge from exploitation on parts of the entrepreneur. 
+For example, entrepreneurs may consciously translate common business practices into routines that may then serve as knowledge resources in their entrepreneurial practice. 
+That is, exploration challenges and exploitation reinforces institutionalized learning.
+Accordingly, while exploration and exploitation lead to distinct learning experiences, both forms of behavior may increase an entrepreneur's experience of learning at work \parencite{Jansen2009}. 
+Thus, we propose:
+
+\textit{Hypothesis 3}: Exploitation positively predicts learning at work.
+
+\subsection{The Effect of Ambidexterity on Vitality and Learning at Work}
+
+Scholars have described the relationship between exploration and exploitation as tense \parencite[e.g.,][]{Li2008, Andriopoulos2009}. 
+Engaging in both behaviors simultaneously, i.e., to be ambidextrous, requires resources (e.g., attention) to be allocated to opposing behavioral strategies \parencite{Laureiro-Martinez2010}. 
+Based on conservation of resources \parencite[COR;][]{Hobfoll.1989} theory, \textcite{Hunter2017} propose that, due to the conflicting nature of exploration and exploitation activities, the simultaneous engagement in both behaviors consumes energy and elevates the risk of individual strain.
+Based on this argumentation, we suggest that while exploration alone enhances vitality and learning at work, additionally engaging in exploitation overtaxes entrepreneurs' energy resources. 
+That is, compared to the sole engagement in exploration, individual ambidexterity is proposed to be disadvantageous for entrepreneurs' vitality. \par
+
+The importance of being successful bears implications for entrepreneurs' goal-directed behavior, in particular for their allocation of resources. 
+Resources may be defined as "anything perceived by the individual to help attain his or her goals" \parencite[p.5]{Halbesleben2014}. 
+Resources are finite, which means that individuals need to make allocation decisions and use the resources they have wisely \parencite{Halbesleben2014}.
+Drawing from COR, entrepreneurs allocate their resources (e.g., mental and physical energy, time) in such ways to maximize the likelihood of achieving business success \parencite[e.g.,][]{Hobfoll.2001}. \par 
+
+While on the organizational level, exploratory and exploitative tasks may be divided between multiple units or individuals \parencite{March.1991}, entrepreneurs are requested to reconcile these contradictory requirements on the individual level to secure business success \parencite[e.g.,][]{Rosing.2017}. 
+That is, with the goal in mind to perform on high levels, entrepreneurs likely invest mental and physical resources into the simultaneous execution of exploratory and exploitative business behaviors. \par 
+
+The positive link established between individual ambidexterity and performance outcomes \parencite[e.g.,][]{Rosing.2017} may not readily be extrapolated to the context of entrepreneurs' well-being.
+As has been noted by \textcite{Volery.2015}, "the possibility that individuals can perform both exploration and exploitation tasks creates a number of challenges" (p. 112).
+Individual ambidexterity involves dealing with contradictions, conflicting goals, and the engagement in paradoxical thinking \parencite{Volery.2015, Raisch.2009b}. 
+Juggling the competing tasks of exploration and exploitation demands entrepreneurs to devote time to both behaviors. 
+As exploration and exploitation are not complementary, they need to switch between both behaviors rapidly to achieve ambidexterity \parencite{Boardman2007}.
+The conflicting demands of exploration and exploitation, such as experimenting with a new way of production conflicting with exploiting currently available methods of production, can feel overtaxing because if time is devoted to exploratory activities it is missing for exploitation and vice versa.  
+Entrepreneurs who focus on one behavioral approach save resources and, thus, are less likely to suffer from exhaustion and energy loss. \par 
+
+Some evidence has been found for individual ambidexterity, operationalized as the absolute difference between a manager's frequency of exploration and exploitation activities, as a predictor of managers' perceived strain \parencite{Keller2015}.
+However, researchers have identified numerous shortcomings of using difference scores when investigating hypotheses of (im)balance \parencite[e.g.,][Edwards.1993a, Cortina1993]. 
+In the current study, we use polynomial regression (PRA) and response surface analysis (RSA) to investigate the effects of individual ambidexterity on vitality at work \parencite{Edwards.1993a, Rosing.2017}. 
+In addition, PRA overcomes a number of methodological shortcomings associated with the use of difference scores, such as decreased reliability and the spurious significance of interaction terms due to interrelated predictors and \parencite{Cortina1993}. 
+Moreover, PRA allows assessing both the level and the degree of (im)balance. 
+That is, rather than merely assessing (im)balance of exploration and exploitation, PRA additionally models additive linear relationships, thus accounting for differences regarding the effects of (im)balance at low versus high levels of both predictors. 
+Using PRA, individual ambidexterity may be represented as the balanced (i.e., congruent) engagement in exploration and exploitation.
+We propose: \par
+
+Hypothesis 4: The balanced engagement in exploration and exploitation is related to lower levels of vitality than the engagement in either exploration or exploitation. \par 
+
+As outlined above, both exploration and exploitation may increase individual learning experiences.
+However, the benefits of individual ambidexterity for the experience of learning at work remains unexplored.
+Previous research has accumulated some insights into the effects of ambidexterity in terms of congruent levels of exploration and exploitation on performance outcomes \parencite[e.g.,][]{Rosing.2017, Mom.2018}.
+For example, \textcite{Rosing.2017} argue that individuals who exclusively explore may be caught in a novelty trap, that is, fail to realize their ideas. 
+Conversely, those who exclusively exploit may be caught in a routine trap, that is, refine existing processes without developing new ideas. 
+This argumentation highlights the fundamental difference between learning at work as an indicator of eudaimonic well-being and performance outcomes. 
+That is, the experience of learning at work is not dependent upon the creation of tangible outcomes. 
+On the contrary, performance is inextricably bound to the outcomes produced. 
+We argue that entrepreneurs who put a stronger focus on either exploration or exploitation shift their learning focus and undergo different learning processes, but do not necessarily experience less learning at work than those who exhibit congruent levels of exploration and exploitation. 
+Accordingly, we propose the following research question: \par 
+
+\textit{Research Question 2}: What is the effect of a balanced engagement in exploration and exploitation on learning at work? \par 
+
+\subsection{Control Variables}
+
+\section{Method}
+
+\subsection{Participants and Procedure} 
+
+Entrepreneurship is commonly divided into four phases, that is, (1) potential entrepreneurs, (2) nascent entrepreneurs, (3) owner-managers of a new business (up to 3.5 years old), and (4) owner-managers of an established business \parencite[e.g.,][]{Bosma.2019, Hart2020}.
+Since entrepreneurial activities and goals may differ depending on the entrepreneurial phase \parencite[e.g.,][]{Rotefoss.2005, Bosma.2019}, we investigate our hypotheses in a sample of early-stage entrepreneurs (i.e., nascent entrepreneurs and owner-managers of a new business, see \citeauthor{Hart2020}, \citeyear{Hart2020}) as a more homogeneous group.
+Moreover, following common definitions of entrepreneurship \parencite[e.g.,][]{Gorgievski2016, Wach2020}, we only included people who indicated that they work self-employed and were involved in founding the business they currently work for. 
+We commissioned an online panel company to recruit early-stage entrepreneurs. 
+The study was approved by the ethics committee of (blinded for review) University (No. xxx, Study Title: xxx). 
+Data for the two waves were collected mid and end of November 2019, respectively. \par 
+
+Overall, 227 entrepreneurs provided data at T1 and were invited to the T2 questionnaire. 
+Of those invited, 214 provided data at T2 (response rate 91 \%).
+Since we use Full Information Maximum Likelihood (FIML) method to account for missing data patterns \parencite[see, e.g.,][]{Enders2001}, in the following, we report sample statistics for the data collected at T1. 
+At T1, the sample included 109 men (48.0\%) and 118 women (52.0 \%). 
+Participants’ ages ranged from 18 to 70 years, with a mean age of 36.5 years (SD = 10.6). 
+Regarding the participants' occupational background before becoming entrepreneurs, 55 (24.2\%) had been business owners or worked self-employed, 52 (23.0\%) had been self-employed and additionally worked for an employer, 99 (43.6\%) had been employees, 14 (6.2\%) had been unemployed or retired, and 7 (3.1\%) had been students. 
+Regarding business characteristics and ownership status, time since business foundation ranged from 14 days to 3.5 years, with an average of 2.12 years (SD = 0.93 years). 
+Most of the participants indicated to be the only owner of the business (n = 120, 52.9 \%), 35 (15.4\%) indicated to co-own the business, 72 (31.7\%) did not provide this information. 
+The businesses operated in the following industries: Information, Communications, and Technology (n = 54, 23.8\%), Health, Education, and Social Services (n = 54, 23.8\%), and Wholesale and Retail (n = 53, 23.3\%), Finance, Real Estate and Business Services (n = 19, 8.4\%), Arts, Fashion, and Entertainment (n = 19, 8.4\%), Agriculture, Extractive, or Construction (n = 13, 5.7\%), and Manufacturing, Logistics (n = 11, 4.8\%). 
+Four participants (1.8\%) did not provide this information.
+
+\subsection{Measures}
+\subsubsection{Predictor variables}
+\paragraph{Exploration and exploitation}
+At T1 and T2, we measured exploration and exploitation with five and six items from the ambidexterity scale developed by \textcite{Mom.2007}. 
+To introduce the items, we presented the phrase “Over the past two weeks, to what extent have you engaged in the following activities:”.
+Example items for exploration and exploitation are “Searching for new possibilities with respect to products/services, processes or markets” and “Activities of which a lot of experience has been accumulated by yourself”, respectively. Participants provided their responses on 7-point scales ranging from 1 = to an extremely small extent to 7 = to an extremely large extent.
+Cronbach’s alphas for exploration were .84 and .83, and for exploitation .74 and .71 at T1 and T2, respectively.
+
+\subsubsection{Outcome variables}
+\paragraph{Vitality and learning}
+At T1 and T2, we measured vitality and learning at work, with two sets of five items from \textcite{Porath.2012}.
+To introduce each set of items, we presented the phrase “Over the course of the past two weeks, as an entrepreneur...”. 
+Example items for vitality and learning are “I felt alive and vital” and “I found myself learning often,” respectively. 
+Participants provided their responses on 7-point scales ranging from 1 = strongly disagree to 7 = strongly agree.
+Cronbach’s alphas for vitality were .89 and .91, and for learning .87 and .91 at T1 and T2, respectively.
+
+\subsection{Data Analysis}
+All data analyses were conducted with R \parencite{Team2019}. 
+First, the investigation of congruence and incongruence effects only makes practical sense if exploration and exploitation are discrepant to some degree \parencite{Shanock.2010b}.
+To assess whether a sufficient degree of discrepancy between exploration and exploitation exists in our sample, we follow the procedure proposed by \textcite{Shanock.2010b} and calculate the proportion of participants whose standardized value on one predictor is half a standard deviation above or below the standardized score of the second predictor.  
+According to \textcite{Shanock.2010b}, if about half of the sample shows discrepant values, the degree of discrepancy allows the examination of congruence/ incongruence effects. \par 
+
+Second, we tested our four hypotheses and two research questions with PRA and RSA, using the RSA package in R \parencite{Schonbrodt2018}.
+The following coefficients are estimated in PRA: The slope of the line of congruence (LOC) (i.e., exploration = exploitation) as related to the outcome variable is given by \textit{a}$_1$ = (\textit{b}$_1$ + \textit{b}$_2$). Here, \textit{b}$_1$ and \textit{b}$_2$ represent the unstandardized regression coefficients for exploration and exploitation, respectively.  
+The curvature along the line of perfect agreement is specified by \textit{a}$_2$ = (\textit{b}$_3$ + \textit{b}$_4$ + \textit{b}$_5$). 
+Here, \textit{b}$_3$ and \textit{b}$_5$ are the unstandardized regression coefficients for exploration squared and exploitation squared, and \textit{b}$_4$ is the unstandardized regression coefficient for the cross-product of exploration and exploitation. 
+The slope of the line of incongruence (LOIC) is defined as \textit{a}$_3$ = (\textit{b}$_1$ - \textit{b}$_2$). 
+The curvature of the line of incongruent exploration and exploitation as related to vitality is specified as \textit{a}$_4$ = (\textit{b}$_3$ - \textit{b}$_4$ + \textit{b}$_5$) \parencite{Shanock.2010b, Humberg2019}. 
+
+According to \textcite{Humberg2019}, a response surface must satisfy four conditions ... \par 
+
+According to Hypotheses 1 and 2, we expect a positive linear main effect of exploration on vitality and learning at work. That is, we expect a positive coefficient \textit{b}$_1$ for both outcomes. 
+For Research Question 1, we are interested in the direction of the linear main effect of exploitation on vitality at work (coefficient \textit{b}$_2$). 
+According to Hypothesis 3, we expect a positive linear main effect of exploitation on learning at work, i.e., a positive coefficient \textit{b}$_2$. \par 
+
+
+As second-degree polynomial models are prone to over-fitting, we follow the suggestions by \textcite{Schonbrodt2016} and test simpler models that are nested under the full polynomial model. 
+These models allow relaxing constraints imposed in a full polynomial model. 
+Specifically, flat ridge models are derived by adding parameters to the basic squared difference model (2), which allow the ridge to be shifted (shifted squared difference model, SSQD) and additionally to be rotated (shifted and rotated squared difference model, SRSQD).
+A second family of nested models can be derived by additionally allowing the ridge to be tilted up- or downwards, which transforms the assumption of a flat ridge (i.e., the assumption of no mean-level effect) into a testable hypothesis. The basic squared difference model with a tilted ridge is called the rising ridge model (RR). Adding parameters for shifting and rotating the surface leads to the shifted rising ridge (SRR) and shifted and rotated rising ridge model (SRRR).
+
+
+
+According to Hypothesis 1a, we expect a negative congruence effect of exploration and exploitation on vitality at work. 
+That is, the surface of the LOIC, given by \textit{Z}=\textit{b}$_0$+\textit{a}$_3$\textit{X}+\textit{a}$_4$\textit{X}$^2$ would have to follow a U-shape, which means that \textit{a}$_4$ must be positive. 
+According to Hypothesis 1b, the interaction effect of exploration and exploitation (\textit{b}$_4$) would have to be negative. \par 
+
+We tested our second hypothesis with LCS modeling, using the lavaan package in R \parencite{Rosseel2012}. 
+Figure 1 presents a path diagram of a bivariate LCS model with two factors: exploration and learning at work. 
+For convenience in graphical representation we omit displaying the multiple indicator structure of each latent variable. 
+All variables are, however, modeled using latent (multiple indicator) factors. 
+Essentially, an LCS model explicitly models the latent change score representing increase or decrease in exploration and learning from T1 to T2 (i.e., $\Delta$Exploration, $\Delta$Learning). 
+The latent change variables $\Delta$Exploration and $\Delta$Learning are specified to be affected by two components: The state of the same construct at T1, and the state of the other variable at T1. 
+The estimation of the effect of the initial state of one variable on change in another variable allows for the investigation of cross-domain coupling. 
+The estimated coupling parameter captures to which extent change in one variable (e.g., $\Delta$Learning) is a function of the initial level in the other variable (e.g, T1Exploration). 
+For example, in a simplified form, the coupling parameter of the effect of T1Exploration on $\Delta$Learning is estimated as:
+
+\[\Delta Learning=\beta_1 \cdot T1Learning + \gamma_2 \cdot T1Exploration\]
+
+We hypothesize that change in learning is predicted by the level of exploration at T1, but not vice versa. 
+Our assumption would find support by a significant coupling effect of T1Exploration on $\Delta$Learning ($\gamma_2$). 
+The coupling effect of T1Learning on $\Delta$Exploration ($\gamma_1$), however, would have to be non-significant to be able to clearly identify exploration as the leading indicator. 
+
+\section{Results}
+
+A correlation matrix can be found in Table 1. 
+
+\subsection{Measurement invariance}
+
+Model fit statistics for the tests of invariance for our focal variables are shown in Table 2. 
+All configural models demonstrated acceptable to good fit.
+Following the recommendations by \textcite{Brown2015}, we freed the correlation between the error terms of the first two and the last two items of the exploration scale. 
+The first two items of the scale relate to exploration in terms of exploring practical business strategies, while the last two items relate to exploration in terms of individual skills, adding correlated error terms is theoretically justified \parencite[e.g.,][]{Brown2015, Little.2013}. 
+Constraining the factor loadings to be equal across the two time points did not substantially change the fit of any of the constructs under assessment: Change in CFI was <0.017, change in RMSEA was <0.009, and chnage in SRMR was <0.013 for metric and <0.005 for scalar invariance \parencite{Chen2007, Cheung2002}.
+
+\subsection{Testing for discrepancy between exploration and exploitation scores}
+We standardized the mean scores of the observed exploration and exploitation items at T1. 
+As shown in Table 3, over two third of our sample exhibited discrepant values. 
+Thus, exploring the effect of incongruence between exploration and exploitation on vitality makes practical sense \parencite{Shanock.2010b}.
+
+\subsection{Hypotheses tests}
+\subsubsection{The effect of incongruence and the interaction between T1 exploration and exploitation on T2 vitality}
+According to our Hypothesis 1a, we expect an incongruence effect of exploration and exploitation on vitality at work.
+According to Hypothesis 1b, we additionally expect a negative interaction effect of exploration and exploitation on vitality.
+A response surface plot is shown in Figure 2. 
+The results of the polynomial regression analysis are presented in Table 4. 
+Exploration at T1 predicted T2 vitality positively (\textit{b}$_1$ = .326, \textit{p} <.001), while there was no relationship between T1 exploitation and T2 vitality (\textit{b}$_1$ = -.045, \textit{p} <.001). 
+As \textit{a}$_2$ (i.e., the curvature along the line of congruence) was insignificant and \textit{a}$_4$ was significant, there is a general effect of incongruence. 
+In Figure 2 it can be seen that the surface along the line of incongruence (following the line from the left to the right of the surface) is U-shaped.
+That is, vitality increases with increasing levels of incongruence between exploration and exploitation. 
+Accordingly, Hypothesis 1a can be supported. \par 
+
+While the quadratic effects of exploration and exploitation at T1 on vitality at T2 (i.e., \textit{b}$_3$ and \textit{b}$_5$) were non-significant, the interaction effect of exploration and exploitation at T1 was significantly negative (\textit{b}$_4$ = -.164, \textit{p} =.016).
+That is, with increasing levels of one predictor variable at T1, vitality at T2 decreases as a function of an increase in the second predictor variable. 
+That is, we also find support for our Hypothesis 1b. 
+
+\subsubsection{The effect of T1 exploration on change in learning from T1 to T2}
+
+According to our Hypothesis 2, we expect initial exploration to predict an increase in learning from T1 to T2. 
+Overall model fit of a bivariate latent change score model was good with $\chi^2$=346.146, df=164, \textit{p}<.001, CFI=.925, TLI=.913, RMSEA=.070. 
+Only the mean of the latent learning change variable was significant ($\textit{M}_E$=.931, \textit{SE}=.489, \textit{p}=.057; $\textit{M}_L$=1.488, \textit{SE}=.466, \textit{p}=.001), indicating that there is a substantial increase from T1 to T2 in learning, but not in exploration. 
+Furthermore, exploration and learning at T1 ($\sigma^2_{T1E}$=1.883, \textit{SE}=.296, \textit{p}<.001); $\sigma^2_{T1L}$=.969, \textit{SE}=.165, \textit{p}<.001) as well as both latent change score variables ($\sigma^2_{T1\Delta E}$=.579, \textit{SE}=.198, \textit{p}=.003); $\sigma^2_{T1\Delta L}$=.652, \textit{SE}=.116, \textit{p}<.001) showed significant variance, indicating individual differences in exploration and learning at T1 as well as in the change to T2. \par 
+The covariance between both variables at T1 as well as between the change parameters was positive and significant ($\phi_{T1}$=.548, \textit{SE}=.146, \textit{p}<.001; $\psi_{\Delta}$=.293, \textit{SE}=.088, \textit{p}=.001). 
+This means that those entrepreneurs with higher levels of exploration at T1 had also experienced higher levels of learning at T1 and those with a stronger increase in exploration from T1 to T2 experienced a stronger increase in learning. 
+The regression of both change variables on their initial state at T1 was negative (for exploration: $\gamma_{11}$=-.284, \textit{SE}=.078, \textit{p}<.001; for learning: $\gamma_{22}$=-.416, \textit{SE}=.095, \textit{p}<.001), indicating that those with low levels at T1 experienced more of an increase in both exploration and learning from T1 to T2 than those with initially high exploration/ learning. 
+Finally, exploration at T1 significantly predicted change in learning ($\gamma_{12}$=.160, \textit{SE}=.062, \textit{p}=.010)), while learning at T1 did not predict change in exploration ($\gamma_{21}$=.015, \textit{SE}=.101, \textit{p}=.880). 
+Accordingly, we find support for our second Hypothesis: T1 exploration significantly predicts an increase in learning from T1 to T2, while the reverse effect (T1 learning predicting change in exploration) cannot be found. 
+That is, exploration is the leading indicator in this relationship. 
+
+
+
+
+\section{Additional Stuff - please disregard}
+
+A factor analysis of the exploration factor suggested a second-order factor structure (see Online Appendix).
+As the first three items of the scale relate to exploration in terms of exploring practical business strategies, while the last two items relate to exploration in terms of individual skills, the underlying two-factor structure makes theoretical sense.
+A comparison of a two-factor and a second-order factor model for exploration showed no substantial decrease in model fit for the more parsimonious second-order factor model (see Online Appendix). 
+Thus, following the recommendations of \textcite{Gerbing1984} and \textit{Chen2005}, we specified a two-factor model of exploration that was used in all subsequent analyses employing structural equation modeling.
+
+While vitality at work represents hedonic aspects of work-related well-being (i.e., the presence of positive and the absence of negative aﬀect), learning at work, the second component of thriving at work, reflects eudaimonic aspects of work-related well-being (i.e., i.e., the experience of meaningfulness and self-development) \parencite[e.g.,][]{Ryan2001, Spreitzer.2005b}. 
+
+and as two behaviors aiming at achieving contradictory goals. 
+
+Conversely, focusing on one behavioral strategy at a time might enhance entrepreneurs' mental energy. 
+
+Drawing from literature pointing at the crucial role of exploration for entrepreneurs' experiential learning experience \parencite[e.g.,][]{Minniti.2001, Holcomb2009}, while taking account of the dynamic nature of entrepreneurial learning \parencite{Cope.2000}, we propose:
+
+Next to the effects of work demands and work events on entrepreneurs' well-being \parencite[e.g.,][]{Uy.2017, Perry.2008, Lechat2017}, to our knowledge, only one study has investigated the effects of work behaviors on entrepreneurial well-being: \textcite{Uy.2017} found a positive direct effect of improvisation behavior on work satisfaction \parencite{Uy.2017}. 
+
+Entrepreneurs' well-being has been shown to be influenced by example in terms of work demands \parencite{Perry.2008}, the experience of affective work events \parencite{Uy.2017}, 
+
+While some insight has been gathered on the predictors of hedonic well-being outcomes, we know little to nothing about antecedents of entrepreneurs' eudaimonic well-being \parencite{Stephan2018}. \par
+
+Researchers commonly distinguish between hedonic and eudaimonic forms of well-being \parencite[e.g.,][]{Ryan2001}. 
+Hedonic well-being refers to satisfaction, the presence of positive and the absence of negative aﬀect (e.g., subjective well-being, \citeauthor{Diener.1984}., \citeyear{Diener.1984}, while eudaimonic well-being entails experiences of meaningfulness associated with the engagement in intrinsically motivating tasks, self-development, and human functioning \parencite[e.g.,][]{Ryan2001}. 
+
+Entrepreneurship may be associated with several socially relevant benefits, ranging from economic growth and the breakthrough of innovative services and goods that fulfill individuals' needs to building knowledge stocks, fostering social change, and community development \parencite[e.g.,][]{Wiklund.2019, Zahra2016, Acs2013}. 
+
+A focus on exploration means variation, risk-taking, experimentation, flexibility, and discovering novel options, focusing on exploitation is associated with improving, implementing, and executing exercised or known procedures \parencite{March.1991, Good.2013}.
+
+The goal of the current study is to investigate the effects of exploration and exploitation as two categories of behaviors every entrepreneur has to engage in to some extent during the process of founding and leading a business on individual well-being \parencite{Siren.2012, Uotila2009, DuaneIreland2007, Rosing.2017}.
+
+
+\subsection{Analyzing the Effects of Exploration on Vitality and Learning at Work Using Random Intercept Cross Lagged Panel Modeling}
+
+In the current study, we measure all variables of interest at four time points with a time lag of three weeks between each observation.  
+Proactive forms of behavior, such as exploration, have been shown to affect well-being outcomes both within the same working day \parencite{Niessen.2012}, as well as over two weeks \parencite{Strauss.2017}. 
+The effects of exploration on learning, on the other hand, unlikely appear immediately (e.g., within the same workday), but need time to unfold. 
+That is because learning from exploration involves opening up to, experimenting with, and subsequently reflecting on novel forms of opportunity-seeking behavior \parencite{Holcomb2009}. 
+Assessing the effects of exploration on vitality and learning three weeks later allows us to establish a precise sequence of events. 
+That is, we can rule out the possibility of reverse causality (i.e., vitality and learning affecting exploration). 
+Moreover, we can make predictions regarding both concurrent and longer-term benefits of entrepreneurial business behaviors for entrepreneurs' vitality and learning at work. 
+To this end, we use random intercept cross-lagged panel modeling \parencite[RI-CLPM;][]{Hamaker.2015}.  
+Including the random intercept allows us to take account of trait-like, time-invariant stability in the relationship between exploration and both vitality and learning at work.
+In other words, the intercept factor of exploration takes into account the circumstance that some individuals generally explore more than other individuals \parencite{Mund2019}.
+That means that a cross-lagged effect of exploration on vitality at work describes the extent to which a deviation above or below the person-specific mean in exploration at an earlier point in time is associated with a subsequent deviation from the person-specific mean in learning controlling for previous deviations from the person-specific mean in learning \parencite{Hamaker.2015, Mund2019}. 
+That is, using RI-CLPM, we examine true within-person dynamics \parencite{Hamaker.2015}. 
+
+\subsection{Analyzing the Effects of Simultaneous Engagement in Exploration and Exploitation on Vitality at Work Using Polynomial Regression Analysis}
+
+We test the effect of simultaneous engagement in exploration and exploitation on vitality at work with polynomial regression analysis \parencite[PRA;][]{Edwards.1993a, Schonbrodt2018, Humberg2019}. 
+PRA may be applied to evaluate the joint contribution of two variables in predicting the outcome of interest \parencite{Edwards.1993a}. 
+That is, PRA allows us to model the effects of congruent (i.e., the same level of exploration and exploitation) and incongruent (i.e., deviating levels of exploration and exploitation) exploration and exploitation on vitality. 
+In PRA, the two congruence variables are modeled separately, thus overcoming the problem of difference scores that operationalize exploration and exploitation as endpoints of one dimension \parencite{Edwards.1993a}.
+Moreover, in contrast to difference scores, PRA allows assessing both the level and the degree of (in)congruence. 
+That is, rather than merely assessing (im)balance of exploration and exploitation, PRA additionally models additive linear relationships, thus accounting for differences regarding the effects of (im)balance at low versus high levels of both predictors. 
+In addition, PRA overcomes a number of methodological shortcomings associated with the use of difference scores, such as decreased reliability and the spurious significance of interaction terms due to interrelated predictors and  \parencite{Cortina1993}. 
+The interpretation of PRA results is eased by the representation of the effects in a three-dimensional surface plot \parencite{Edwards.1993a} using response surface methodology (RSM; \citeauthor{Humberg2019}, \citeyear{Humberg2019}; \citeauthor{Shanock.2010b}, \citeyear{Shanock.2010b}). 
+
+
+
+
+%TABLES
+
+\begin{sidewaystable}[th]
+\caption{Correlation matrix}
+% latex table generated in R 3.6.2 by xtable 1.8-4 package
+% Tue Jun  9 12:22:00 2020
+\centering
+\begin{tabular}{rlllllllllllllll}
+  \toprule
+ & T1Exr & T1Exi & T1Lea & T1Vit & T2Exr & T2Exi & T2Lear & T2Vit & Occ & Coown & Indu & Op.Ne & Found & Age & Gen \\ 
+  \midrule
+T1Exr &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+  T1Exi &  0.24 &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+  T1Lea &  0.36 &  0.26 &  &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+  T1Vit &  0.31 &  0.21 &  0.49 &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+  T2Exr &  0.64 &  0.19 &  0.27 &  0.25 &  &  &  &  &  &  &  &  &  &  &  \\ 
+  T2Exi &  0.12 &  0.55 &  0.20 &  0.21 &  0.15 &  &  &  &  &  &  &  &  &  &  \\ 
+  T2Lear &  0.39 &  0.07 &  0.58 &  0.47 &  0.49 &  0.15 &  &  &  &  &  &  &  &  &  \\ 
+  T2Vit &  0.22 &  0.12 &  0.20 &  0.66 &  0.20 &  0.17 &  0.45 &  &  &  &  &  &  &  &  \\ 
+  Occ & -0.15 & -0.03 & -0.03 & -0.06 & -0.10 & -0.03 & -0.09 & -0.06 &  &  &  &  &  &  &  \\ 
+  Coown &  0.19 &  0.15 &  0.18 &  0.04 &  0.16 &  0.03 &  0.09 &  0.00 &  0.09 &  &  &  &  &  &  \\ 
+  Indu & -0.03 & -0.02 & -0.13 & -0.11 &  0.00 & -0.08 & -0.06 & -0.07 &  0.02 & -0.01 &  &  &  &  &  \\ 
+  Op/Ne & -0.13 &  0.05 & -0.02 & -0.24 & -0.16 &  0.06 & -0.12 & -0.20 &  0.09 & -0.06 &  0.05 &  &  &  &  \\ 
+  Found & -0.03 &  0.17 &  0.06 &  0.17 &  0.01 &  0.26 &  0.09 &  0.10 &  0.00 &  0.18 & -0.05 & -0.16 &  &  &  \\ 
+  Age & -0.24 &  0.13 & -0.10 & -0.06 & -0.18 &  0.06 & -0.07 & -0.01 & -0.10 & -0.06 & -0.10 &  0.04 &  0.18 &  &  \\ 
+  Gen & -0.07 &  0.04 & -0.09 & -0.08 &  0.02 &  0.10 &  0.03 &  0.02 &  0.02 & -0.06 & -0.05 & -0.05 &  0.01 &  0.00 &  \\ 
+  Edu & -0.13 &  0.10 & -0.08 & -0.06 & -0.09 &  0.04 & -0.02 &  0.05 &  0.02 &  0.04 & -0.22 & -0.06 &  0.02 &  0.09 &  0.18 \\ 
+   \bottomrule
+\end{tabular}
+\smallskip
+\begin{tablenotes}[para,flushleft]
+{\small
+\textit{Note.} \textit{N} = 227. T = Time; Exr = Exploration; Exi = Exploitation; Lea = Learning; Vit = Vitality; Exp = Years of experience working self-employed; Coown = Co-ownership; Indu = Industry; Op/Ne = Opportunity vs. necessity entrepreneurship; Found = Time since business foundation; Gen = Gender; Edu = Level of education. Dummycode for Co-ownership: 1 = no co-owners, 2 = at least one co-owner; Dummycode for opportunity vs. necessity entrepreneurship: 1 = Opportunity entrepreneurship, 2 = Necessity entrepreneurship; Dummycode for gender: 1 = male, 2 = female; higher score for education indicates higher education level. All correlations $\geq$ |.15| were significant at \textit{p} < .05. 
+}
+\end{tablenotes}
+\end{sidewaystable}
+
+
+\begin{sidewaystable}[ht]
+\caption{Tests of measurement invariance}
+\centering
+
+\begin{tabular}{p{1.0cm}p{1.0cm}p{2.2cm}p{1cm}p{3.7cm}p{1cm}p{2cm}p{1.7cm}p{1.7cm}p{1.7cm}p{2cm}}
+  \toprule
+Var & Test & $\chi$(\textit{df}) & CFI & RMSEA(\textit{df}) & SRMR & $\Delta\chi$($\Delta$\textit{df}) & $\Delta$CFI & $\Delta$RMSEA & $\Delta$SRMR & Decision \\ 
+  \midrule
+Exr & CI & 83.787 (24) & 0.95 & 0.105\ (0.081-0.13) & 0.06 & - & - & - & - & - \\ 
+   & MI & 88.261 (26) & 0.95 & 0.103\ (0.08-0.127) & 0.07 & 4.474 (2) & 0.002 & 0.002 & 0.012 & Accept \\ 
+   & SI & 91.231 (30) & 0.95 & 0.095\ (0.073-0.117) & 0.07 & 2.97 (4) & 0.001 & 0.008 & 0 & Accept \\ 
+  Exi & CI & 85.394 (46) & 0.96 & 0.061\ (0.041-0.082) & 0.06 & - & - & - & - & - \\ 
+   & MI & 95.971 (51) & 0.95 & 0.062\ (0.043-0.081) & 0.07 & 10.577 (5) & 0.006 & 0.001 & 0.009 & Accept \\ 
+   & SI & 115.862 (56) & 0.94 & 0.069\ (0.051-0.086) & 0.07 & 19.891 (5) & 0.016 & 0.007 & 0.004 & Accept \\ 
+  Lea & CI & 54.292 (28) & 0.98 & 0.064\ (0.038-0.09) & 0.04 & - & - & - & - & - \\ 
+   & MI & 54.877 (32) & 0.98 & 0.056\ (0.029-0.081) & 0.05 & 0.585 (4) & 0.003 & 0.008 & 0.001 & Accept \\ 
+   & SI & 60.88 (36) & 0.98 & 0.055\ (0.03-0.079) & 0.05 & 6.003 (4) & 0.002 & 0.001 & 0.002 & Accept \\ 
+  Vit & CI & 84.24 (28) & 0.96 & 0.094\ (0.071-0.117) & 0.05 & - & - & - & - & - \\ 
+   & MI & 85.449 (32) & 0.96 & 0.086\ (0.064-0.108) & 0.06 & 1.209 (4) & 0.002 & 0.008 & 0.001 & Accept \\ 
+   & SI & 90.407 (36) & 0.96 & 0.082\ (0.061-0.103) & 0.06 & 4.958 (4) & 0.001 & 0.004 & 0.001 & Accept \\  
+   \bottomrule
+\end{tabular}
+\smallskip
+\begin{tablenotes}[para,flushleft]
+{\small
+\textit{Note.} \textit{N} = 227. Var = Variable; Test = Measurement invariance test; CI = Configural invariance; MI = Metric invariance; SI = Scalar invariance; Exr = Exploration; Exi = Exploitation; Lea = Learning; Vit = Vitality; CFI = Comparative fit index; RMSEA = Root mean square error of approximation; SRMR = Standardized root mean square residual.
+}
+\end{tablenotes}
+\end{sidewaystable}
+
+\begin{table}[htb]
+\caption{Frequencies of T1 exploration 0.5 SD over T1 exploitation, 0.5 SD under T1 exploitation, and within range of 0.5 SD over and under T1 exploitation (in agreement)}
+\begin{tabular}{p{6.0cm}lll}
+\toprule
+Agreement groups & Percentage & Mean exploration & Mean exploitation \\
+\midrule
+Exploration over exploitation & 37.44 & 4.95 & 4.44\\
+In agreement & 29.96 & 4.32 & 4.98\\
+Exploration under exploitation & 32.60 & 3.11 & 5.52\\
+\bottomrule
+\end{tabular}
+\smallskip
+\begin{tablenotes}[para,flushleft]
+{\small
+\textit{Note.} \textit{N} = 227. 
+}
+\end{tablenotes}
+\end{table}
+
+
+\begin{table}[ht]
+\caption{Results of the polynomial regression analysis}
+\begin{tabular}{p{1.5cm}p{2.0cm}p{1.5cm}p{1.5cm}p{2.5cm}}
+\toprule
+Label & Estimate & \textit{p} & SE & 95\%CIs \\ 
+\midrule
+b1 & 0.326*** & 0.000 & 0.093 & 0.144 - 0.508 \\ 
+  b2 & -0.045  & 0.644 & 0.097 & -0.235 - 0.145 \\ 
+  b3 & 0.026  & 0.585 & 0.047 & -0.067 - 0.119 \\ 
+  b4 & -0.164* & 0.016 & 0.068 & -0.298 - -0.031 \\ 
+  b5 & 0.086  & 0.314 & 0.085 & -0.081 - 0.253 \\ 
+  b0 & 4.914*** & 0.000 & 0.116 & 4.688 - 5.141 \\ 
+  a1 & 0.281** & 0.003 & 0.093 & 0.099 - 0.463 \\ 
+  a2 & -0.053  & 0.543 & 0.086 & -0.222 - 0.117 \\ 
+  a3 & 0.371* & 0.025 & 0.166 & 0.046 - 0.696 \\ 
+  a4 & 0.276* & 0.040 & 0.134 & 0.013 - 0.539 \\ 
+  a5 & -0.06  & 0.567 & 0.105 & -0.265 - 0.145 \\ 
+\bottomrule
+\end{tabular}
+\smallskip
+\begin{tablenotes}[para,flushleft]
+{\small
+\textit{Note.} \textit{N} = 227. SE = Standard error; CIs = Confidence intervals. \\ R$^2$ = 0.071, p = .009. \\ *\textit{p}<.05, **\textit{p}<.01, ***\textit{p}<.001.  
+}
+\end{tablenotes}
+\end{table}
+
+%FIGURES
+
+\begin{figure}[t]
+\includegraphics[width=10cm]{Diagram.png}
+\caption{Simplified bivariate latent change score model for the effect of exploration and learning at Time 1 on change in exploration and learning from Time 1 to Time 2. Means and item loadings are omitted for visual clarity. Figure adapted from \textcite{Kievit2018}}.
+\end{figure}
+
+
+\begin{figure}[t]
+\includegraphics[width=8cm]{Plot.png}
+\caption{Response surface plot of the relationships among exploration, exploitation, and vitality at work.}.
+\end{figure}
+
+\printbibliography{library.bib}
+
+
+\end{document}
+
+
+
+
+%% 
+%% Copyright (C) 2019 by Daniel A. Weiss <daniel.weiss.led at gmail.com>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Users may freely modify these files without permission, as long as the
+%% copyright line and this statement are maintained intact.
+%% 
+%% This work is not endorsed by, affiliated with, or probably even known
+%% by, the American Psychological Association.
+%% 
+%% This work is "maintained" (as per LPPL maintenance status) by
+%% Daniel A. Weiss.
+%% 
+%% This work consists of the file  apa7.dtx
+%% and the derived files           apa7.ins,
+%%                                 apa7.cls,
+%%                                 apa7.pdf,
+%%                                 README,
+%%                                 APA7american.txt,
+%%                                 APA7british.txt,
+%%                                 APA7dutch.txt,
+%%                                 APA7english.txt,
+%%                                 APA7german.txt,
+%%                                 APA7ngerman.txt,
+%%                                 APA7greek.txt,
+%%                                 APA7czech.txt,
+%%                                 APA7turkish.txt,
+%%                                 APA7endfloat.cfg,
+%%                                 Figure1.pdf,
+%%                                 shortsample.tex,
+%%                                 longsample.tex, and
+%%                                 bibliography.bib.
+%% 
+%%
+%% End of file `./samples/longsample.tex'.
